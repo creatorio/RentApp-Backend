@@ -64,8 +64,8 @@ worker.on("message", (e) => {
   }
 });
 var mailOptions = {
-  from: "rent.manager.corp@gmail.com",
-  to: "rdjunior018@gmail.com",
+  from: "rdjunior018@gmail.com",
+  to: "",
   subject: "Sending Email using Node.js",
   text: `This is a verification email from Rent Manager. Here is your code : `,
 };
