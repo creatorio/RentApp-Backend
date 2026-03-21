@@ -7,12 +7,6 @@ const webPush = require("web-push");
 const bodyParser = require("body-parser");
 const port = process.env.PORT || 3000;
 var timeandsub;
-const {
-  symmetricCrypto,
-  asymmetricCrypto,
-  keyAgreementCrypto,
-} = require("./mute-crypto-helper.browser.es2015.esm");
-asymmetricCrypto.generateEncryptionKeyPair();
 app.use(bodyParser.json());
 app.use(cors({ origin: "*" }));
 app.use(express.urlencoded({ extended: false }));
