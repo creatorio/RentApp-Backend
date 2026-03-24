@@ -5,8 +5,8 @@ const send = (mailOptions) => {
     port: 587,
     secure: false,
     auth: {
-      user: "rdjunior018@gmail.com",
-      pass: "xrod kzpi jfzp vksx",
+      user: "rent.manager.corp@gmail.com",
+      pass: "ljll myiy mube itmh",
     },
   });
   transporter.sendMail(mailOptions, function (error, info) {
